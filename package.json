@@ -1,0 +1,25 @@
+{
+  "name": "twitterposterai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gspteck/TwitterPosterAI.git"
+  },
+  "author": "GSPTeck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gspteck/TwitterPosterAI/issues"
+  },
+  "homepage": "https://github.com/gspteck/TwitterPosterAI#readme",
+  "dependencies": {
+    "firebase-tools": "^10.2.0",
+    "openai": "^2.0.2",
+    "twitter-api-v2": "^1.10.2"
+  }
+}
